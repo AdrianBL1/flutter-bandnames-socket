@@ -24,6 +24,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('BandNames', style: TextStyle(color: Colors.black87)),
+        centerTitle: true,
         backgroundColor: Colors.white,
         elevation: 1,
       ),
